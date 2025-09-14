@@ -25,3 +25,7 @@ customers.push({
 
 customers.shift();
 
+
+customers[0].email = "cole@gmail.com";
+
+customers[1].purchases.push("Phone case");
