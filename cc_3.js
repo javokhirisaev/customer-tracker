@@ -16,7 +16,6 @@ let customers = [
   }
 ];
 
-
 customers.push({
   name: "Estevao Willian",
   email: "willian@gmail.com",
@@ -24,7 +23,6 @@ customers.push({
 });
 
 customers.shift();
-
 
 customers[0].email = "cole@gmail.com";
 
