@@ -16,3 +16,12 @@ let customers = [
   }
 ];
 
+
+customers.push({
+  name: "Estevao Willian",
+  email: "willian@gmail.com",
+  purchases: ["Applewatch"]
+});
+
+customers.shift();
+
