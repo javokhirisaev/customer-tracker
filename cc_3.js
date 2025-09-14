@@ -29,3 +29,7 @@ customers.shift();
 customers[0].email = "cole@gmail.com";
 
 customers[1].purchases.push("Phone case");
+
+customers.forEach(customer => {
+  console.log(`${customer.name} | ${customer.email} | Total purchases: ${customer.purchases.length}`);
+});
